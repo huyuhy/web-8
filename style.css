@@ -1,0 +1,295 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+ul,ol,li{
+	list-style: none;
+}
+/* 页头 */
+.header{
+	width: 1200px;
+	height: 65px;
+	margin: 0 auto;
+}
+.right{
+	float: right;
+	width: 670px;
+	height: 35px;
+	line-height: 35px;
+}
+.right span{
+	font-size: 13px;
+	margin-right: 12px;
+}
+.sign{
+	margin-left: 28px;
+}
+select{
+	border: none;
+}
+.order{
+	border: none;
+	color: #666;
+	font-size: 16px;
+}
+.header .icon{
+	float: right;
+	margin: 12px 0 0 10px;
+}
+/* 导航栏 */
+.nav{
+	width: 1200px;
+	height: 131px;
+	margin: 0 auto;
+	position: relative;
+}
+.search{
+	width: 602px;
+	position: absolute;
+	left: 410px;
+	top: 10px;
+}
+.search input{
+	width: 539px;
+	height: 46px;
+	color: #ddd;
+	text-align: center;
+	border: 1px solid #393942;
+	border-right: none;
+}
+.search1{
+	width: 59px;
+	height: 46px;
+	text-align: center;
+	border: 1px solid #393942;
+	border-left: 2px solid #ccc;
+	float: right;
+}
+.search1 img{
+	margin-top: 5px;
+}
+.shopping{
+	position: absolute;
+	top: 26px;
+	right: 0;
+}
+.sort{
+	float: left;
+	border: none;
+	margin: 33px 15px 0 0;
+	font-size: 16px;
+	color: #050505;
+}
+.subnav{
+	margin-top: 25px;
+}
+.subnav a{
+	display: inline-block;
+	width: 78px;
+	text-align: center;
+	line-height: 38px;
+	margin-right: 38px;
+}
+.subnav a:last-child{
+	margin-right: 0;
+}
+.subnav a:hover{
+	color: #3aa747;
+	border-bottom: 3px solid #3aa747;
+}
+/* 大图 */
+.banner{
+	height: 670px;
+	border-top: 3px solid #3aa747;
+	background-image: url('imgs/banner.png');
+	background-position: center;
+}
+/* 主体内容 */
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.menu{
+	line-height: 62px;
+}
+.menu a:first-child{
+	font-size: 18px;
+}
+.menu a+a{
+	font-size: 14px;
+	color: #797777;
+}
+.menu span{
+	float: right;
+	margin-top: 10px;
+	color: #8d8d8d;
+}
+table{
+	width: 1200px;
+	border: 1px solid #ccc;
+	margin-bottom: 40px;
+}
+.other{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+td{
+	width: 121px;
+	height: 45px;
+	text-align: center;
+}
+tr td:first-child{
+	width: 100px;
+	background-color: #e5e5e5;
+}
+td a{
+	color: #737373;
+}
+td a:hover{
+	color: #3aa747;
+}
+.more{
+	font-size: 14px;
+}
+/* 八张图片 */
+.pictures-wrapper{
+	height: 780px;
+}
+.pictures li{
+	float: left;
+	width: 274px;
+	height: 293px;
+	text-align: center;
+	border: 1px solid #878787;
+	margin: 14px;
+	position: relative;
+}
+.pictures li:first-child{
+	margin-left: 5px;
+}
+.pictures li:last-child{
+	margin-right: 0;
+}
+.bottom{
+	width: 100%;
+	height: 46px;
+	padding-top: 6px;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	background-color: #000;
+	opacity:0.7;
+}
+.full{
+	width: 100%;
+	height: 188px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 105px;
+	position: absolute;
+	top: 0;
+	background-color: #000;
+	opacity: 0.7;
+	display: none;
+}
+.full p{
+	line-height: 60px;
+}
+.pictures li:hover .full{
+	display: block;
+}
+.pictures li:hover .bottom{
+	display: none;
+}
+.pictures li img{
+	margin-top: 30px;
+}
+#fimg{
+	margin-top: 0;
+}
+.simg{
+	margin-left: 41px;
+}
+/* 页脚导航栏 */
+.footnav-wrapper{
+	height: 102px;
+	background-color: #f5f5f5;
+}
+.footnav{
+	width: 1200px;
+	margin: 0 auto;
+}
+.footnav>div{
+	float: left;
+	width: 299px;
+	height: 48px;
+	margin-top: 27px;
+}
+.footnav div+div{
+	border-left: 1px solid #e0e0e0;
+}
+.footnav img{
+	float: left;
+	margin: 0 23px 0 50px;
+}
+.f1{
+	margin-left: 24px;
+}
+.footnav p{
+	font-size: 18px;
+}
+.footnav span{
+	font-size: 13px;
+}
+/* 页脚 */
+.footer-wrapper{
+	height: 100px;
+	background-color: #323232;
+}
+.footer{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer a,.footer span{
+	font-size: 14px;
+	color: #ddd;
+}
+.footer p{
+	margin: 5px 0 15px 0;
+}
+/* 侧边栏 */
+.siderbar{
+	position: fixed;
+	top: 200px;
+	right: 0;
+}
+.siderbar>div{
+	width: 60px;
+	height: 90px;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.85;
+}
+.side{
+	width: 50px;
+	margin-left: 5px;
+	border-top: 1px solid #5a5b59;
+}
+.siderbar img{
+	margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
