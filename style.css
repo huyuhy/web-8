@@ -28,7 +28,7 @@ ul,ol,li{
 	border: none;
 	color: #666;
 	font-size: 16px;
-	
+	outline:none;
 }
 .header .icon{
 	float: right;
