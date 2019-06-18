@@ -14,22 +14,15 @@ ul,ol,li{
 	width: 1200px;
 	height: 65px;
 	margin: 0 auto;
-}
-.right{
-	float: right;
-	width: 670px;
-	height: 35px;
+	text-align: right;
 	line-height: 35px;
 }
-.right span{
+.header span{
 	font-size: 13px;
 	margin-right: 12px;
-}
+} 
 .sign{
 	margin-left: 28px;
-}
-select{
-	border: none;
 }
 .order{
 	border: none;
@@ -284,12 +277,3 @@ td a:hover{
 .siderbar img{
 	margin-top: 25px;
 }
-
-
-
-
-
-
-
-
-
